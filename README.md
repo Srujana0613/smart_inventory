@@ -11,10 +11,14 @@ Streamlit dashboard.
 3. Run `database/00_create_database.sql` in MySQL Workbench.
 4. Copy `.env.example` to `.env` and put in your MySQL password.
 5. Verify: `python test_setup.py`
+6. Build tables + sample data: `python -m modules.setup_database`
+7. Run schema tests: `python -m unittest tests.test_schema -v`
+
+Design notes and ER diagram: `docs/database_design.md`
 
 ## Progress
 - [x] Phase 1 – Environment setup
-- [ ] Phase 2 – Database design
+- [x] Phase 2 – Database design
 - [ ] Phase 3 – Python–MySQL connection
 - [ ] Phase 4 – Product & inventory management
 - [ ] Phase 5 – Expiry management

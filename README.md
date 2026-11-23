@@ -14,12 +14,14 @@ Streamlit dashboard.
 6. Build tables + sample data: `python -m modules.setup_database`
 7. Run schema tests: `python -m unittest tests.test_schema -v`
 
+Phase 3 demo: `python demo_phase3.py` | tests: `python -m unittest discover -s tests -t . -v`
+
 Design notes and ER diagram: `docs/database_design.md`
 
 ## Progress
 - [x] Phase 1 – Environment setup
 - [x] Phase 2 – Database design
-- [ ] Phase 3 – Python–MySQL connection
+- [x] Phase 3 – Python–MySQL connection
 - [ ] Phase 4 – Product & inventory management
 - [ ] Phase 5 – Expiry management
 - [ ] Phase 6 – Sales & billing
